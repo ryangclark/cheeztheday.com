@@ -3,18 +3,30 @@
 @tailwind utilities;
 
 @layer base {
-	:root {
-		--ctd-green: 97 172 164;
-		--ctd-pink: 241 110 167;
-		--ctd-yellow: 255 243 110;
+	@font-face {
+		font-family: 'Brisa W01 Regular';
+		src: url('/fonts/Brisa W01 Regular.woff2') format('woff2');
 	}
 
-	body {
-        /* The CTD gradient, baybee! */
-		background: linear-gradient(
-			rgb(var(--ctd-green)),
-			rgb(var(--ctd-yellow)),
-			rgb(var(--ctd-pink))
+	@font-face {
+		font-family: 'MuseoSlab-500';
+		src: url('/fonts/MuseoSlab-500.woff2') format('woff2');
+	}
+
+	:root {
+		--ctd-green: 112 201 191;
+		--ctd-orange-dark: 244 123 32;
+		--ctd-orange-light: 253 190 79;
+		--ctd-pink-dark: 240 105 167;
+		--ctd-pink-light: 250 191 189;
+		--ctd-yellow: 255 242 110;
+
+		/* The CTD gradient, baybee! */
+		--ctd-gradient: linear-gradient(
+			rgb(var(--ctd-green)) 0%,
+			rgb(var(--ctd-yellow)) 62%,
+			rgb(var(--ctd-pink-light)) 86%,
+			rgb(var(--ctd-pink-dark)) 100%
 		);
 	}
 }
