@@ -2,7 +2,7 @@
 	import logo from '$lib/assets/CTD_logo.png';
 </script>
 
-<nav class="mx-auto mb-8 flex h-20 items-center gap-3 pr-4">
+<nav class="mx-auto mb-8 flex h-20 items-center gap-3 pr-4 md:gap-6">
 	<a class="w-24" href="/"
 		><img alt="Cheez The Day logo" src={logo} /><span class="sr-only">Home</span
 		></a
