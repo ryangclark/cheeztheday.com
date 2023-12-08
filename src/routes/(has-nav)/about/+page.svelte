@@ -2,11 +2,17 @@
 
 <!-- <h4 class="my-2 italic">Life is about experiences &ndash; Come have one!</h4> -->
 
-<p class="mb-2 mt-6">Cheez The Day is Cincinnati's grilled cheez truck.</p>
-<p class="mb-8">
+<p class="mb-2 mt-6">
+	<span class="font-semibold">Cheez The Day</span> is Cincinnati's grilled cheez
+	truck. We serve gourmet sandwiches, truckmade soup, and fine salads.
+</p>
+<!-- <p class="mb-8">
+	You'll find us at public events and private popups across Cincinnati.
+</p> -->
+<!-- <p class="mb-8">
 	It's where melty cheese meets toasted bread. Where good people find good food.
 	It's where you should be.
-</p>
+</p> -->
 
 <h2 class="mb-3 mt-6 text-2xl">How it started</h2>
 <p class="my-2">
