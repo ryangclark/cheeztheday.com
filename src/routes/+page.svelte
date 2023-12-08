@@ -12,8 +12,10 @@
 	</div>
 
 	<h1 class="sr-only">Cheez The Day</h1>
-	<div class="flex flex-col items-center">
-		<p class="mx-4 my-8 text-center font-handwritten text-5xl md:text-5xl">
+	<div class="flex flex-col items-center lg:mb-20">
+		<p
+			class="mx-4 my-8 text-center font-handwritten text-5xl md:text-5xl lg:mt-0"
+		>
 			life is about experiences &ndash;<br class="lg:hidden" /> come have one!
 		</p>
 		<h2 class="my-4 font-museo text-lg tracking-wide lg:text-xl">
