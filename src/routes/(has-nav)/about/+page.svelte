@@ -1,4 +1,4 @@
-<h1 class="my-3 text-3xl">About us</h1>
+<h1 class="my-3 font-museo text-3xl">About us</h1>
 
 <!-- <h4 class="my-2 italic">Life is about experiences &ndash; Come have one!</h4> -->
 
@@ -22,8 +22,7 @@
 </p>
 <p class="my-2">
 	Being simple men, they came up with a simple menu: sandwiches, soups, and
-	salads. But just because the menu is simple doesn't mean the food is. Check
-	out
+	salads. But just because the menu's simple doesn't mean the food is. Check out
 	<a class="underline" href="/menu">our menu</a>.
 </p>
 

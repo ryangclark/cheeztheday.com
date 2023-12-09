@@ -1,4 +1,4 @@
-<h1 class="font-museo my-3 text-3xl">Menu</h1>
+<h1 class="my-3 font-museo text-3xl">Menu</h1>
 
 <p class="mb-4 mt-2 text-sm italic">
 	<!-- <span class="uppercase not-italic">Note: </span> -->
@@ -6,7 +6,7 @@
 </p>
 
 <h2
-	class="font-museo mb-4 mt-12 text-center text-3xl font-bold uppercase tracking-widest"
+	class="mb-4 mt-12 text-center font-museo text-3xl font-bold uppercase tracking-widest"
 >
 	Grilled Cheez
 </h2>
@@ -30,7 +30,7 @@
 >
 	<div class="mx-auto max-w-sm md:col-span-2">
 		<div
-			class="font-museo mb-2 mt-6 flex justify-between text-xl font-bold uppercase"
+			class="mb-2 mt-6 flex justify-between font-museo text-xl font-bold uppercase"
 		>
 			<h3>The Original</h3>
 			<p>$9</p>
@@ -43,7 +43,7 @@
 
 	<div>
 		<div
-			class="font-museo mb-2 mt-6 flex justify-between text-xl font-bold uppercase"
+			class="mb-2 mt-6 flex justify-between font-museo text-xl font-bold uppercase"
 		>
 			<h3>Ramblin' Man</h3>
 			<p>$12</p>
@@ -56,7 +56,7 @@
 
 	<div>
 		<div
-			class="font-museo mb-2 mt-6 flex justify-between text-xl font-bold uppercase"
+			class="mb-2 mt-6 flex justify-between font-museo text-xl font-bold uppercase"
 		>
 			<h3>The Cowboy</h3>
 			<p>$13</p>
@@ -69,7 +69,7 @@
 
 	<div>
 		<div
-			class="font-museo mb-2 mt-6 flex justify-between text-xl font-bold uppercase"
+			class="mb-2 mt-6 flex justify-between font-museo text-xl font-bold uppercase"
 		>
 			<h3>Rise & Shine</h3>
 			<p>$9</p>
@@ -82,7 +82,7 @@
 
 	<div>
 		<div
-			class="font-museo mb-2 mt-6 flex justify-between text-xl font-bold uppercase"
+			class="mb-2 mt-6 flex justify-between font-museo text-xl font-bold uppercase"
 		>
 			<h3>Hambo</h3>
 			<p>$10</p>
@@ -95,7 +95,7 @@
 
 	<div>
 		<div
-			class="font-museo mb-2 mt-6 flex justify-between text-xl font-bold uppercase"
+			class="mb-2 mt-6 flex justify-between font-museo text-xl font-bold uppercase"
 		>
 			<h3>Athena</h3>
 			<p>$9</p>
@@ -107,7 +107,7 @@
 
 	<div>
 		<div
-			class="font-museo mb-2 mt-6 flex justify-between text-xl font-bold uppercase"
+			class="mb-2 mt-6 flex justify-between font-museo text-xl font-bold uppercase"
 		>
 			<h3>French Connection</h3>
 			<p>$9</p>
@@ -120,13 +120,13 @@
 
 	<div>
 		<h2
-			class="font-museo mb-2 mt-8 text-center text-2xl font-bold uppercase tracking-widest"
+			class="mb-2 mt-8 text-center font-museo text-2xl font-bold uppercase tracking-widest"
 		>
 			Greens
 		</h2>
 
 		<div
-			class="font-museo mb-2 mt-6 flex justify-between text-xl font-bold uppercase"
+			class="mb-2 mt-6 flex justify-between font-museo text-xl font-bold uppercase"
 		>
 			<h3>Terry's Salad</h3>
 			<p>$3</p>
@@ -145,13 +145,13 @@
 
 	<div>
 		<h2
-			class="font-museo mb-2 mt-8 text-center text-2xl font-bold uppercase tracking-widest"
+			class="mb-2 mt-8 text-center font-museo text-2xl font-bold uppercase tracking-widest"
 		>
 			Other Goodies
 		</h2>
 
 		<div
-			class="font-museo mb-2 mt-6 flex justify-between text-xl font-bold uppercase"
+			class="mb-2 mt-6 flex justify-between font-museo text-xl font-bold uppercase"
 		>
 			<h3>Truck Soup</h3>
 			<p>$3</p>
@@ -161,7 +161,7 @@
 		</p>
 
 		<div
-			class="font-museo mb-2 mt-6 flex justify-between text-xl font-bold uppercase"
+			class="mb-2 mt-6 flex justify-between font-museo text-xl font-bold uppercase"
 		>
 			<h3>Cheesy Toast Points</h3>
 			<p>$4</p>
@@ -176,27 +176,3 @@
 		increase your risk of foodborne illnesses.
 	</p>
 </div>
-
-<style>
-	.ctd-gradient-border {
-		--gradient: conic-gradient(
-			from 180deg at 50% 70%,
-			rgb(var(--ctd-pink-dark)) 0deg,
-			rgb(var(--ctd-pink-light)) 72.0000010728836deg,
-			rgb(var(--ctd-orange-light)) 144.0000021457672deg,
-			rgb(var(--ctd-orange-dark)) 216.00000858306885deg,
-			rgb(var(--ctd-pink-light)) 288.0000042915344deg,
-			rgb(var(--ctd-pink-dark)) 1turn
-		);
-
-		background:
-			linear-gradient(
-					rgb(var(--ctd-yellow) / 0.9),
-					rgb(var(--ctd-yellow) / 0.9)
-				)
-				padding-box,
-			var(--gradient) border-box;
-		border: 4px solid transparent;
-		border-radius: 8px;
-	}
-</style>
