@@ -45,7 +45,7 @@
 </div>
 
 <style>
-	/* I doubled the gradient, so we could loop infinitely by simply returning to 0%. */
+	/* I doubled the gradient so we could loop infinitely. */
 	#footer-hr {
 		animation: gradient 12s linear infinite;
 		background: linear-gradient(
