@@ -15,7 +15,7 @@
 		<div class="px-4 lg:mx-auto lg:max-w-screen-lg">
 			<div class="flex flex-col gap-3 font-museo text-sm">
 				<a
-					class="flex items-center gap-2"
+					class="mr-auto flex items-center gap-2"
 					href="mailto:cheezthedayfoodtruck@gmail.com"
 					><span class="fill-current text-white">
 						<!-- I don't know how to directly style the resulting `<svg>`,
@@ -25,13 +25,13 @@
 				>
 
 				<a
-					class="flex items-center gap-2"
+					class="mr-auto flex items-center gap-2"
 					href="https://www.facebook.com/CheezTheDay/"
 					><img alt="Facebook logo" class="w-6" src={fbLogo} />Cheez The Day</a
 				>
 
 				<a
-					class="flex items-center gap-2"
+					class="mr-auto flex items-center gap-2"
 					href="https://www.instagram.com/cheezthedayfoodtruck"
 					><img
 						alt="Instagram logo"
@@ -45,13 +45,36 @@
 </div>
 
 <style>
+	/* I doubled the gradient, so we could loop infinitely by simply returning to 0%. */
 	#footer-hr {
+		animation: gradient 12s linear infinite;
 		background: linear-gradient(
 			0.25turn,
 			rgb(var(--ctd-green)) 0%,
-			rgb(var(--ctd-yellow)) 62%,
-			rgb(var(--ctd-pink-light)) 86%,
-			rgb(var(--ctd-pink-dark)) 100%
+			rgb(var(--ctd-yellow)) 13.5%,
+			rgb(var(--ctd-pink-light)) 17.5%,
+			rgb(var(--ctd-pink-dark)) 25%,
+			rgb(var(--ctd-yellow)) 36.5%,
+			rgb(var(--ctd-green)) 50%,
+			/* Now, repeat again from here */ rgb(var(--ctd-yellow)) 63.5%,
+			rgb(var(--ctd-pink-light)) 67.5%,
+			rgb(var(--ctd-pink-dark)) 75%,
+			rgb(var(--ctd-yellow)) 86.5%,
+			rgb(var(--ctd-green)) 100%
 		);
+		background-size: 400vw;
+	}
+
+	@keyframes gradient {
+		0% {
+			background-position: 0% 0%;
+		}
+		99.99% {
+			/* Gotta give it a little extra 0.025% to smooth it out. */
+			background-position: 67.525% 0%;
+		}
+		100% {
+			background-position: 0% 0%;
+		}
 	}
 </style>
