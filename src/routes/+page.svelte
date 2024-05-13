@@ -18,13 +18,11 @@
 		>
 			life is about experiences &ndash;<br class="lg:hidden" /> come have one!
 		</p>
-		<h2
-			class="my-4 font-museo text-sm uppercase tracking-wide text-stone-800 lg:text-lg"
-		>
-			<span class="text-lg lg:text-2xl">C</span>incinnati's
-			<span class="text-lg lg:text-2xl">g</span>rilled
-			<span class="text-lg lg:text-2xl">c</span>heez
-			<span class="text-lg lg:text-2xl">t</span>ruck
+		<h2 class="my-4 font-museo text-sm uppercase tracking-wide text-stone-800">
+			<span class="text-lg">C</span>incinnati's
+			<span class="text-lg">g</span>rilled
+			<span class="text-lg">c</span>heez
+			<span class="text-lg">t</span>ruck
 		</h2>
 	</div>
 	<nav class="my-12 flex justify-center gap-6">
