@@ -1,13 +1,8 @@
-<h1 class="my-3 font-museo text-3xl">Events</h1>
-
-<!-- <p class="my-2">
-	Planning an event? You and your guests deserve the best. Contact us to learn
-	more.
-</p> -->
+<h1 class="my-3 font-museo text-3xl">Events & Catering</h1>
 
 <p class="my-2">
 	Bringing people together is a beautiful thing, and we'd love to help make it
-	special.
+	special. Cheez The Day caters events of all kinds.
 </p>
 
 <p class="my-2">
@@ -18,10 +13,11 @@
 
 <h2 class="mb-3 mt-6 font-museo text-2xl">Neighborhood Gatherings</h2>
 <p class="my-2">
-	Building community in your own backyard is underrated. Coming together around
-	food is a great way to get started, and we're favorites with HOAs for regular
-	meetups, graduation parties, and more.
+	Building community in your own backyard is underrated, and coming together
+	around food is a great way to get started. We're favorites with HOAs for
+	regular meetups, graduation parties, and more.
 </p>
+
 <p class="my-2">
 	We'll set up in your driveway or at the local meetup spot, and the grilled
 	cheez will grease the wheels. Celebrate, connect, and enjoy.
@@ -29,9 +25,8 @@
 
 <h2 class="mb-3 mt-6 font-museo text-2xl">Workplace Lunches</h2>
 <p class="my-2">
-	Wanna treat your crew? We can't blame you &ndash; you've got great employees.
-	We're ready to set up the truck at your workplace for breakfast, lunch, or
-	dinner.
+	Wanna treat your crew? Great employees deserve great grilled cheez. We're
+	ready to set up the truck at your workplace for breakfast, lunch, or dinner.
 </p>
 
 <h2 class="mb-3 mt-6 font-museo text-2xl">Your Gathering</h2>
