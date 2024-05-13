@@ -14,8 +14,8 @@
 	class="ctd-gradient-border mx-auto mb-6 mt-8 px-2 py-4 md:max-w-xl md:px-8"
 >
 	<p class="text-center">
-		All sandwiches are grilled on sourdough, with a crispy dill pickle and a
-		choice of side.
+		All sandwiches are grilled on sourdough, served with a crispy dill pickle
+		and a choice of side.
 	</p>
 	<div class="mt-4 flex flex-col justify-center md:flex-row md:gap-2">
 		<h3 class="font-museo text-lg font-bold md:text-xl">Sides:</h3>
