@@ -7,7 +7,10 @@ export default {
 				// Using modern `rgb`
 				// See: https://tailwindcss.com/docs/customizing-colors#using-css-variables
 				'ctd-green': 'rgb(var(--ctd-green) / <alpha-value>)',
-				'ctd-pink': 'rgb(var(--ctd-pink) / <alpha-value>)',
+				'ctd-orange-dark': 'rgb(var(--ctd-orange-dark) / <alpha-value>)',
+				'ctd-orange-light': 'rgb(var(--ctd-orange-light) / <alpha-value>)',
+				'ctd-pink-dark': 'rgb(var(--ctd-pink-dark) / <alpha-value>)',
+				'ctd-pink-light': 'rgb(var(--ctd-pink-light) / <alpha-value>)',
 				'ctd-yellow': 'rgb(var(--ctd-yellow) / <alpha-value>)',
 			},
 			fontFamily: {
