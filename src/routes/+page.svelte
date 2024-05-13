@@ -26,9 +26,9 @@
 		</h2>
 	</div>
 	<nav class="my-12 flex justify-center gap-6">
-		<a class="font-museo text-xl underline" href="/about">About</a>
-		<a class="font-museo text-xl underline" href="/contact">Contact</a>
-		<a class="font-museo text-xl underline" href="/events">Events</a>
 		<a class="font-museo text-xl underline" href="/menu">Menu</a>
+		<a class="font-museo text-xl underline" href="/about">About</a>
+		<a class="font-museo text-xl underline" href="/events">Events</a>
+		<a class="font-museo text-xl underline" href="/contact">Contact</a>
 	</nav>
 </div>
