@@ -17,9 +17,10 @@
 				<a
 					class="mr-auto flex items-center gap-2"
 					href="mailto:cheezthedayfoodtruck@gmail.com"
-					><span class="fill-current text-white">
-						<!-- I don't know how to directly style the resulting `<svg>`,
-							so we style a `<span>` instead. -->
+				>
+					<!-- I don't know how to directly style the resulting `<svg>`,
+						so we style a `<span>` instead. -->
+					<span class="fill-current text-white">
 						{@html emailIcon}
 					</span>cheezthedayfoodtruck@gmail.com</a
 				>
