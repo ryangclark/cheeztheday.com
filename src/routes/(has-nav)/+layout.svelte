@@ -13,6 +13,6 @@
 	<a class="font-museo text-lg underline" href="/contact">Contact</a>
 </nav>
 
-<div class="mx-4 lg:mx-10">
+<div class="mx-4 lg:max-w-prose lg:mx-auto">
 	<slot />
 </div>
