@@ -1,16 +1,44 @@
+import { PRIVATE_F2E_URL } from '$env/static/private';
+
 /** @type {import('./$types').Actions} */
 export const actions = {
 	default: async (event) => {
-		// TODO log the user in
-		// console.log('default handler. event:', event);
+		const formData = await event.request.formData();
+		console.log('Contact Form Submission:', formData);
 
-		const data = await event.request.formData();
-		const email = data.get('email');
-		const message = data.get('message');
-		const name = data.get('name');
-		const phone = data.get('phone');
+		if (!formData) {
+			console.log('error: no `formData`!');
+			return { success: false };
+		}
 
-		console.log('Contact Form Submission:', { email, message, name, phone });
+		const cf_turnstile_response =
+			formData.get('cf-turnstile-response')?.toString().trim() || '';
+		const email = formData.get('email')?.toString().trim() || '';
+		const message = formData.get('message')?.toString().trim() || '';
+		const name = formData.get('name')?.toString().trim() || '';
+		const phone = formData.get('phone')?.toString().trim() || '';
+
+		if (!PRIVATE_F2E_URL) {
+			console.log('error: no URL for Form-To-Email!');
+
+			return { success: false };
+		}
+
+		const emailResponse = await fetch(PRIVATE_F2E_URL, {
+			body: JSON.stringify({
+				'cf-turnstile-response': cf_turnstile_response,
+				email,
+				message,
+				name,
+				phone,
+			}),
+			headers: { 'Content-Type': 'application/json' },
+			method: 'POST',
+		});
+
+		if (!emailResponse.ok) {
+			return { success: false };
+		}
 
 		return { success: true };
 	},

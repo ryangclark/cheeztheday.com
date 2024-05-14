@@ -1,7 +1,24 @@
 <script lang="ts">
 	import type { ActionData } from './$types';
+	import { PUBLIC_CF_TURNSTILE_SITE_KEY } from '$env/static/public';
 
 	export let form: ActionData;
+
+	/**
+	 * Programmatically add a script to the page to load the Turnstile
+	 * script when the `message` field is blurred to only load it when
+	 * we think we'll need it because site visitors might come to this
+	 * page without wanting/intending to use the form.
+	 */
+	function handleBlur(event: any) {
+		if (window.hasOwnProperty('turnstile') || !event.target?.value) return;
+
+		// Initialize Turnstile by creating a script tag to import their code.
+		const scriptElem = document.createElement('script');
+		scriptElem.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js';
+
+		document.body.appendChild(scriptElem);
+	}
 </script>
 
 <h1 class="my-3 font-museo text-3xl">Contact us</h1>
@@ -41,6 +58,7 @@
 			id="message"
 			name="message"
 			required
+			on:blur={handleBlur}
 		></textarea>
 
 		<label class=" mt-4 font-mono" for="email"> Contact info </label>
@@ -61,11 +79,26 @@
 			/>
 		</div>
 
+		<div class="cf-turnstile" data-sitekey={PUBLIC_CF_TURNSTILE_SITE_KEY}></div>
+
 		<button
 			class="mx-auto my-6 rounded-lg border-2 border-ctd-pink-dark bg-pink-100 px-8 py-2 font-mono text-pink-950 hover:bg-pink-200"
 			>Send</button
 		>
 
-		{#if form?.success}<p class="mx-auto">We got your message! Thanks.</p>{/if}
+		{#if form?.success === true}
+			<p class="mx-auto">We got your message! Thanks.</p>
+		{:else if form?.success === false}
+			<p class="mx-auto">An error occurred. We apologize. Please try again.</p>
+		{/if}
 	</form>
 </div>
+
+<style>
+	/* Turnstile will automatically determine whether a visible challenge
+	is required for the current session/user/whatever. Style the iframe 
+	that the script creates, when needed, so we have conditional margin. */
+	.cf-turnstile :global(iframe) {
+		margin: 2rem auto 0;
+	}
+</style>
