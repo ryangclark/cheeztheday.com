@@ -1,8 +1,12 @@
 <script lang="ts">
 	import type { ActionData, PageData } from './$types';
+	import { PUBLIC_CF_TURNSTILE_SITE_KEY } from '$env/static/public';
 
 	export let data: PageData;
 	export let form: ActionData;
+
+	console.log('env/static/public:', PUBLIC_CF_TURNSTILE_SITE_KEY);
+	console.log('data.CF_TURNSTILE_SITE_KEY:', data.CF_TURNSTILE_SITE_KEY);
 
 	/**
 	 * Programmatically add a script to the page to load the Turnstile
