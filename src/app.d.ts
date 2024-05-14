@@ -5,7 +5,12 @@ declare global {
 		// interface Error {}
 		// interface Locals {}
 		// interface PageData {}
-		// interface Platform {}
+		interface Platform {
+			env: {
+				CF_TURNSTILE_SITE_KEY: string;
+				FORM_TO_EMAIL_URL: string;
+			};
+		}
 	}
 }
 

@@ -1,4 +1,4 @@
-import { PRIVATE_F2E_URL } from '$env/static/private';
+import type { PageServerLoad } from './$types.js';
 
 /** @type {import('./$types').Actions} */
 export const actions = {
@@ -18,13 +18,13 @@ export const actions = {
 		const name = formData.get('name')?.toString().trim() || '';
 		const phone = formData.get('phone')?.toString().trim() || '';
 
-		if (!PRIVATE_F2E_URL) {
+		if (!event.platform?.env.FORM_TO_EMAIL_URL) {
 			console.log('error: no URL for Form-To-Email!');
 
 			return { success: false };
 		}
 
-		const emailResponse = await fetch(PRIVATE_F2E_URL, {
+		const emailResponse = await fetch(event.platform?.env.FORM_TO_EMAIL_URL, {
 			body: JSON.stringify({
 				'cf-turnstile-response': cf_turnstile_response,
 				email,
@@ -42,4 +42,13 @@ export const actions = {
 
 		return { success: true };
 	},
+};
+
+export const load: PageServerLoad = ({ platform }) => {
+	// https://developers.cloudflare.com/turnstile/troubleshooting/testing/#dummy-sitekeys-and-secret-keys
+	const dummyKey = '2x00000000000000000000AB';
+
+	return {
+		CF_TURNSTILE_SITE_KEY: platform?.env?.CF_TURNSTILE_SITE_KEY || dummyKey,
+	};
 };

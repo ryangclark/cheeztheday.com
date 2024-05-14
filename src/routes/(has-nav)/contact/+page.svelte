@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { ActionData } from './$types';
-	import { PUBLIC_CF_TURNSTILE_SITE_KEY } from '$env/static/public';
+	import type { ActionData, PageData } from './$types';
 
+	export let data: PageData;
 	export let form: ActionData;
 
 	/**
@@ -79,7 +79,10 @@
 			/>
 		</div>
 
-		<div class="cf-turnstile" data-sitekey={PUBLIC_CF_TURNSTILE_SITE_KEY}></div>
+		<div
+			class="cf-turnstile"
+			data-sitekey={data.CF_TURNSTILE_SITE_KEY || ''}
+		></div>
 
 		<button
 			class="mx-auto my-6 rounded-lg border-2 border-ctd-pink-dark bg-pink-100 px-8 py-2 font-mono text-pink-950 hover:bg-pink-200"
