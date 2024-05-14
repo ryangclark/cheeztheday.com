@@ -7,8 +7,8 @@ declare global {
 		// interface PageData {}
 		interface Platform {
 			env: {
-				CF_TURNSTILE_SITE_KEY: string;
-				FORM_TO_EMAIL_URL: string;
+				PUBLIC_CF_TURNSTILE_SITE_KEY: string;
+				PUBLIC_FORM_TO_EMAIL_URL: string;
 			};
 		}
 	}
