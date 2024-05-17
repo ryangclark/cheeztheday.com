@@ -6,9 +6,7 @@
 </script>
 
 <div class="flex min-h-[100svh] flex-col justify-between">
-	<div class="lg:mx-auto lg:w-full lg:max-w-screen-lg">
-		<slot />
-	</div>
+	<slot />
 
 	<footer class="mb-6 mt-8">
 		<div class="my-8 h-1" id="footer-hr"></div>
