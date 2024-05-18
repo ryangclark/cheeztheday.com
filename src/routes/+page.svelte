@@ -1,7 +1,6 @@
 <script>
 	import { spring } from 'svelte/motion';
 	import { onMount } from 'svelte';
-	import { fly } from 'svelte/transition';
 
 	import logo from '$lib/assets/CTD_logo.png';
 
@@ -25,8 +24,8 @@
 		illustrationNames.splice(index, 1);
 	}
 
-	const finalPosition = { right: -30, top: 15 };
-	const initialPosition = { right: -60, top: 0 };
+	const finalPosition = { right: -17, top: 15 };
+	const initialPosition = { right: -20, top: 0 };
 	const illustrationSpring = spring(initialPosition, {
 		damping: 0.15,
 		stiffness: 0.1,
@@ -100,7 +99,7 @@
 </div>
 
 <div
-	class="observe relative mb-12 mt-24 h-[60svh] w-full justify-center lg:mx-auto lg:mb-24 lg:mt-12 lg:max-w-[85vw]  xl:max-w-[75vw]"
+	class="observe relative mb-12 mt-24 h-[60svh] w-full max-w-[100vw] justify-center overflow-x-clip lg:mx-auto lg:mb-24 lg:mt-12"
 >
 	{#each illustrations as illustrationImport, i}
 		{#await illustrationImport then { default: illustration }}
@@ -118,8 +117,8 @@
 					: ''}
 				style="{isLefthandSide
 					? 'right'
-					: 'left'}: {$illustrationSpring.right}%; top: {$illustrationSpring.top *
-					(isLefthandSide ? 1 : -1)}%;"
+					: 'left'}: {$illustrationSpring.right}svh; top: {$illustrationSpring.top *
+					(isLefthandSide ? 1 : -1)}svh;"
 				src={illustration}
 			/>
 		{/await}
