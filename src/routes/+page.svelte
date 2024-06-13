@@ -53,7 +53,7 @@
 	<BouncyIllustrations />
 </div>
 
-<div class="mx-4 mb-16 mt-12 flex w-fit flex-col justify-center lg:mx-auto">
+<div class="mx-4 mb-16 mt-12 flex w-fit flex-col justify-center lg:mx-auto lg:mt-48">
 	<h2 class="mb-2 font-museo text-2xl">Event Calendar</h2>
 	<p>
 		Find our current and upcoming events on <a
