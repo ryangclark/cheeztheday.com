@@ -11,6 +11,12 @@
 	don't bite!).
 </p>
 
+<h2 class="mb-3 mt-6 font-museo text-2xl">Workplace Lunches</h2>
+<p class="my-2">
+	Wanna treat your crew? Great employees deserve great food. We're ready to set
+	up the truck at your workplace for breakfast, lunch, or dinner.
+</p>
+
 <h2 class="mb-3 mt-6 font-museo text-2xl">Neighborhood Gatherings</h2>
 <p class="my-2">
 	Building community in your own backyard is underrated, and coming together
@@ -21,12 +27,6 @@
 <p class="my-2">
 	We'll set up in your driveway or at the local meetup spot, and the grilled
 	cheez will grease the wheels. Celebrate, connect, and enjoy.
-</p>
-
-<h2 class="mb-3 mt-6 font-museo text-2xl">Workplace Lunches</h2>
-<p class="my-2">
-	Wanna treat your crew? Great employees deserve great grilled cheez. We're
-	ready to set up the truck at your workplace for breakfast, lunch, or dinner.
 </p>
 
 <h2 class="mb-3 mt-6 font-museo text-2xl">Your Gathering</h2>

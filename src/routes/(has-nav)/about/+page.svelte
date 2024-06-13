@@ -17,25 +17,32 @@
 
 <h2 class="mb-3 mt-6 font-museo text-2xl">How it started</h2>
 <p class="my-2">
-	In 2020, Larry and Tony decided to test their lifelong friendship by going
-	into business together. With their wives, Connie and Terry, they opened a food
-	truck to bring people across Cincinnati together over good food, done right.
+	In 2020, Larry and Tony put their lifelong friendship to the test by hopping
+	on a tie-dye bus and grilling cheez together. With their wives, Connie and
+	Terry, they opened a food truck to bring people across greater Cincinnati
+	together over good food, done right, and done cheezy.
 </p>
 <p class="my-2">
-	Being simple men, they came up with a simple menu: sandwiches, soups, and
-	salads. But just because the menu's simple doesn't mean the food is. Check out
+	Being men who enjoy the simple things in life, they came up with a simple
+	menu: sandwiches, soups, and salads. But just because the menu's simple
+	doesn't mean the food is. Check out
 	<a class="underline" href="/menu">our menu</a>.
 </p>
 
 <h2 class="mb-3 mt-6 font-museo text-2xl">Did you know?</h2>
 <ul class="list-disc">
 	<li class="mb-2 ml-6">
-		Tony is clasically-trained and experienced chef. He prefers slingin'
-		sandwiches.
+		Experts at the helm: Tony is a classically-trained and experienced chef. He
+		prefers slingin' sandwiches.
 	</li>
 	<li class="mb-2 ml-6">
-		Tony helped build out the truck himself, installing the griddle and welding
-		shit and everything. Elbow grease meets kitchen grease.
+		Business-savvy without the tie: Larry has been selling ketchup-popsicles to
+		women in white gloves since the day he was born. Bet he'll sell you on that
+		Cowboy sandwich &ndash; with all the add-ons &ndash; before you can say CHEEZ!
+	</li>
+	<li class="mb-2 ml-6">
+		Elbow grease meets kitchen grease: Tony helped build out the truck himself,
+		installing the griddle, welding, and everything in between.
 	</li>
 	<li class="mb-2 ml-6 italic">more fun facts...</li>
 </ul>
