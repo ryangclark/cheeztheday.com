@@ -11,6 +11,7 @@ export default {
 				'ctd-orange-light': 'rgb(var(--ctd-orange-light) / <alpha-value>)',
 				'ctd-pink-dark': 'rgb(var(--ctd-pink-dark) / <alpha-value>)',
 				'ctd-pink-light': 'rgb(var(--ctd-pink-light) / <alpha-value>)',
+				'ctd-teal': 'rgb(var(--ctd-teal) / <alpha-value>)',
 				'ctd-yellow': 'rgb(var(--ctd-yellow) / <alpha-value>)',
 			},
 			fontFamily: {

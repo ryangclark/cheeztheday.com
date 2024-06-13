@@ -19,6 +19,7 @@
 		--ctd-orange-light: 253 190 79;
 		--ctd-pink-dark: 240 105 167;
 		--ctd-pink-light: 250 191 189;
+		--ctd-teal: 171 224 215;
 		--ctd-yellow: 255 242 110;
 
 		/* The CTD gradient, baybee! */
@@ -45,8 +46,8 @@
 
 		background:
 			linear-gradient(
-					rgb(var(--ctd-yellow) / 0.9),
-					rgb(var(--ctd-yellow) / 0.9)
+					rgb(var(--ctd-teal) / 0.9),
+					rgb(var(--ctd-teal) / 0.9)
 				)
 				padding-box,
 			var(--gradient) border-box;
