@@ -5,7 +5,7 @@
 	import emailIcon from '$lib/assets/mail_icon.svg?raw';
 </script>
 
-<div class="flex min-h-[100svh] flex-col justify-between">
+<div class="flex flex-col justify-between">
 	<slot />
 
 	<footer class="mb-6 mt-8">
