@@ -14,11 +14,11 @@
 	</div>
 
 	<div class="flex justify-center">
-		<img alt="Cheez The Day logo" class="w-4/5 lg:mt-20 lg:w-1/4" src={logo} />
+		<img alt="Cheez The Day logo" class="w-4/5 lg:mt-12 lg:w-1/4" src={logo} />
 	</div>
 
 	<h1 class="sr-only">Cheez The Day</h1>
-	<div class="flex flex-col items-center lg:mb-20">
+	<div class="flex flex-col items-center">
 		<p
 			class="mx-4 my-8 text-center font-handwritten text-5xl md:text-5xl lg:mt-0"
 		>
@@ -31,7 +31,7 @@
 			<span class="text-lg">t</span>ruck
 		</h2>
 	</div>
-	<nav class="mx-auto my-12 grid grid-cols-2 justify-center gap-3 md:w-80">
+	<nav class="mx-auto my-8 grid grid-cols-2 justify-center gap-3 md:w-80">
 		<a class="mx-auto font-museo text-xl underline" href="/menu">Menu</a>
 		<a class="mx-auto font-museo text-xl underline" href="/about">About</a>
 
@@ -52,8 +52,11 @@
 <div class="relative my-24 h-[60svh] lg:hidden">
 	<BouncyIllustrations />
 </div>
+<!-- Cori resolution: 695, 1421 -->
 
-<div class="mx-4 mb-16 mt-12 flex w-fit flex-col justify-center lg:mx-auto lg:mt-48">
+<div
+	class="mx-4 mb-16 mt-12 flex w-fit flex-col justify-center lg:mx-auto lg:mt-48"
+>
 	<h2 class="mb-2 font-museo text-2xl">Event Calendar</h2>
 	<p>
 		Find our current and upcoming events on <a
