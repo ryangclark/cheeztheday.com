@@ -1,8 +1,7 @@
 <h1 class="my-3 font-museo text-3xl">Menu</h1>
 
-<p class="mb-4 mt-2 text-sm italic">
-	<!-- <span class="uppercase not-italic">Note: </span> -->
-	While supplies last. Menu may vary by event.
+<p class="mb-4 mt-2 font-mono text-sm italic">
+	While supplies last. Menu may vary by event. Order at truck window.
 </p>
 
 <h2
