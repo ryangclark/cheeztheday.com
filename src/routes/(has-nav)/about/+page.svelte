@@ -38,13 +38,13 @@
 	<li class="mb-2 ml-6">
 		Business-savvy without the tie: Larry has been selling ketchup-popsicles to
 		women in white gloves since the day he was born. Bet he'll sell you on that
-		Cowboy sandwich &ndash; with all the add-ons &ndash; before you can say CHEEZ!
+		Cowboy sandwich &ndash; with all the add-ons &ndash; before you can say
+		CHEEZ!
 	</li>
 	<li class="mb-2 ml-6">
 		Elbow grease meets kitchen grease: Tony helped build out the truck himself,
 		installing the griddle, welding, and everything in between.
 	</li>
-	<li class="mb-2 ml-6 italic">more fun facts...</li>
 </ul>
 
 <h2 class="mb-3 mt-6 font-museo text-2xl">FAQ</h2>
