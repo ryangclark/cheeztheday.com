@@ -25,8 +25,7 @@
 		illustrationNames.splice(index, 1);
 	}
 
-	// const finalPosition = { x: 17, y: 5 };
-	// const initialPosition = { x: -20, y: 25 };
+	// Default animation position values.
 	const finalPosition = { x: -17, y: 20 };
 	const initialPosition = { x: -50, y: 10 };
 
@@ -39,6 +38,11 @@
 	let io;
 
 	onMount(() => {
+		// Extra bounce for small screens.
+		if (window.innerWidth < 1000) {
+			initialPosition.x = -75;
+		}
+
 		io = new IntersectionObserver(
 			(entries) => {
 				for (const entry of entries) {
@@ -75,13 +79,12 @@
 >
 	{#each illustrations as illustrationImport, i}
 		{#await illustrationImport then { default: illustration }}
-			<!-- <p>value is {illustration.default}</p> -->
 			<!-- This `const` is slightly confusing because of zero-indexing. -->
 			{@const isLefthandSide = i % 2 === 0}
 			{@const name = illustration.match(/_(.*).png$/)?.[1]}
 			<img
 				alt={`${name} illustration`}
-				class="illustration absolute lg:max-w-[50vw] xl:max-w-[35vw]"
+				class="illustration absolute lg:max-w-[50vw] xl:max-w-[40vw] 2xl:max-w-[35vw]"
 				class:left={isLefthandSide}
 				style:transform={(!isLefthandSide && name === 'spatula') ||
 				(!isLefthandSide && name === 'spoon')
@@ -89,7 +92,7 @@
 					: ''}
 				style="{isLefthandSide
 					? 'left'
-					: 'right'}: {$illustrationSpring.x}svh; {isLefthandSide
+					: 'right'}: {$illustrationSpring.x}vw; {isLefthandSide
 					? 'bottom'
 					: 'top'}: {$illustrationSpring.y}svh;"
 				src={illustration}
