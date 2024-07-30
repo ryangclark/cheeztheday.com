@@ -15,7 +15,7 @@
 		alt=""
 		class="sff-logo mx-auto my-4 px-2 pb-1 pt-2"
 		src="https://streetfoodfinder.com/static/imgs/logo3.png"
-	/></a
+	/><span class="sr-only">StreetFoodFinder</span></a
 >
 
 <style>
