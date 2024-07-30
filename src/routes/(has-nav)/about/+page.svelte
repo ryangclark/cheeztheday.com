@@ -1,19 +1,17 @@
-<h1 class="my-3 font-museo text-3xl">About us</h1>
+<svelte:head>
+	<title>About us | How Cheez The Day started | Frequently asked questions </title>
+	<meta
+		name="description"
+		content="Discover how Cheez The Day food truck got its start serving Cincinnati with gourmet sandwiches, plus frequently asked questions and fun facts."
+	/>
+</svelte:head>
 
-<!-- <h4 class="my-2 italic">Life is about experiences &ndash; Come have one!</h4> -->
+<h1 class="my-3 font-museo text-3xl">About us</h1>
 
 <p class="mb-2 mt-6">
 	<span class="font-semibold">Cheez The Day</span> is Cincinnati's grilled cheez
 	truck. We serve gourmet sandwiches, fresh salads, and truckmade soup.
 </p>
-
-<!-- <p class="mb-8">
-	You'll find us at public events and private popups across Cincinnati.
-</p> -->
-<!-- <p class="mb-8">
-	It's where melty cheese meets toasted bread. Where good people find good food.
-	It's where you should be.
-</p> -->
 
 <h2 class="mb-3 mt-6 font-museo text-2xl">How it started</h2>
 <p class="my-2">

@@ -1,3 +1,11 @@
+<svelte:head>
+	<title>Menu | Cheez The Day | Sandwiches, salads, and soup</title>
+	<meta
+		name="description"
+		content="View Cheez The Day's latest menu: gourmet sandwiches, fresh salads, and truckmade soup. Find our food truck at events across Cincinnati, or schedule catering for your event today!"
+	/>
+</svelte:head>
+
 <h1 class="my-3 font-museo text-3xl">Menu</h1>
 
 <p class="mb-4 mt-2 font-mono text-sm italic">
@@ -96,7 +104,7 @@
 		<div
 			class="mb-2 mt-6 flex justify-between font-museo text-xl font-bold uppercase"
 		>
-			<h3>Pizza Party</h3>
+			<h3>Sicilian</h3>
 			<p></p>
 		</div>
 		<p class="my-2">Mozzarella, provolone, pepperoni, red pizza sauce</p>
@@ -187,7 +195,6 @@
 		<p class="my-2">Fried cheese pickle (served with 3)</p>
 	</div>
 </div>
-<!-- </div> -->
 
 <div class="mx-4 mb-8 mt-16 flex justify-center">
 	<p class="max-w-sm font-mono text-sm lg:text-center">

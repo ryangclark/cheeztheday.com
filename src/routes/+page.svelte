@@ -7,6 +7,31 @@
 	import StreetFoodFinder from '$lib/components/street_food_finder.svelte';
 </script>
 
+<svelte:head>
+	<title>Cheez The Day | Cincinnati's grilled cheez food truck</title>
+	<meta
+		name="description"
+		content="Cheez The Day serves Cincinnati with gourmet sandwiches, fresh salads, and truckmade soup. Contact us to schedule your next catering event!"
+	/>
+
+	<!-- Open Graph tags -->
+	<meta
+		property="og:title"
+		content="Cheez The Day | Best grilled cheez food truck | Cincinnati Catering and Events"
+	/>
+	<meta
+		property="og:description"
+		content="Cheez The Day food truck serves Cincinnati with gourmet sandwiches, fresh salads, and truckmade soup."
+	/>
+	<meta property="og:url" content="https://cheeztheday.com" />
+	<!-- Not sure if the URL below changes... -->
+	<meta
+		property="og:image"
+		content="https://cheeztheday.com/_app/immutable/assets/CTD_logo.Cwiz2ai3.png"
+	/>
+	<meta property="og:type" content="website" />
+</svelte:head>
+
 <div
 	class="relative flex min-h-[100svh] max-w-[100vw] flex-col justify-between"
 >

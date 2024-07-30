@@ -21,6 +21,14 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Contact us | Cheez The Day</title>
+	<meta
+		name="description"
+		content="Contact us to schedule your next catering event with Cheez The Day food truck, to ask any questions, or if you need grilled cheez advice."
+	/>
+</svelte:head>
+
 <h1 class="my-3 font-museo text-3xl">Contact us</h1>
 
 <p>

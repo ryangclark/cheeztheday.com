@@ -2,6 +2,16 @@
 	import StreetFoodFinder from '$lib/components/street_food_finder.svelte';
 </script>
 
+<svelte:head>
+	<title
+		>Events & Catering | Cheez The Day | Gourmet sandwiches at your gathering
+	</title>
+	<meta
+		name="description"
+		content="Cheez The Day caters events of all kinds, from workplace lunches to neighborhood gatherings. Learn how we can make your event special with delicious food, done right."
+	/>
+</svelte:head>
+
 <div class="my-8 mb-16 mt-3 flex flex-col justify-center xl:mb-24">
 	<StreetFoodFinder></StreetFoodFinder>
 </div>
